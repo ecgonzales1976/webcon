@@ -1,0 +1,27 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales reutilizables */
+input, textarea, button {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 8px;
+}
+
+/* 🎯 Página contacto */
+body.contacto {
+    background-color: #87CEEB; /* celeste */
+    color: #000000;
+}
+
+body.contacto input,
+body.contacto textarea,
+body.contacto button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #333;
+}
